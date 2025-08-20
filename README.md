@@ -17,8 +17,8 @@ from telegram.ext import (
 from telegram.constants import ParseMode
 
 # === НАСТРОЙКИ ===
-TOKEN = os.getenv("8085896656:AAHR6quotHw7b8wMWkCcRhhpwdY7pgFcik8")
-if not 8085896656:AAHR6quotHw7b8wMWkCcRhhpwdY7pgFcik8
+TOKEN = os.getenv("TOKEN")
+if not TOKEN:
     raise RuntimeError("TOKEN не установлен. Зайди в Railway → Variables → добавь TOKEN.")
 
 PROXY_URL = ""
