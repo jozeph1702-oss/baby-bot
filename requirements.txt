@@ -1,0 +1,2 @@
+python-telegram-bot[async]>=20.0
+pytz
